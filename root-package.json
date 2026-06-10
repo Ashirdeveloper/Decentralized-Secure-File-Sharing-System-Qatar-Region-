@@ -1,0 +1,13 @@
+{
+  "name": "decentralized-secure-file-sharing",
+  "version": "1.0.0",
+  "description": "Decentralized Secure File Sharing System for Qatar Region",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"cd server && node index.js\" \"cd client && npm run dev\"",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["security", "file-sharing", "zero-trust", "qatar"],
+  "author": "Ashir Developer",
+  "license": "ISC"
+}
