@@ -1,7 +1,4 @@
 {
-  "buildCommand": "cd client && npm install && npm run build",
-  "installCommand": "npm install",
-  "outputDirectory": "client/dist",
   "routes": [
     {
       "src": "/(.*)",
